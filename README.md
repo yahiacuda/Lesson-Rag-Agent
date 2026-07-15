@@ -3,6 +3,10 @@
 **CMPE 682/683/782/783 — Assignment 2 | Track A: RAG Implementation**
 **Authors:** Walid Ben Ali, Yahia Boray
 
+Portfolio note: this fork is maintained under Yahia Boray's GitHub account as
+implementation evidence for the RAG lesson-generation, quiz-generation, and
+evaluation work. The original coursework collaboration is credited above.
+
 A Retrieval-Augmented Generation (RAG) system that generates curriculum-grounded quiz questions from lesson objectives, grounded in a corpus of 16 OpenStax textbooks (22,066 indexed chunks). Built with FastAPI, Ollama, Qdrant, and Streamlit.
 
 ---
@@ -95,7 +99,7 @@ streamlit_quiz_app.py              # Streamlit frontend with conversational clar
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Walid-wb1901942/Lesson-Rag-Agent.git
+git clone https://github.com/yahiacuda/Lesson-Rag-Agent.git
 cd Lesson-Rag-Agent
 ```
 
